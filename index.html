@@ -14,11 +14,11 @@
       justify-content: center;
       align-items: center;
 
-      background-color: #6c34ce40;
+      background-color: rgba(108, 52, 206, 0.25);
       background-image: url("./IMG_1585.png");
       background-repeat: repeat;
 
-      font-family: "Courier New", monospace;
+      font-family: Helvetica, Arial, sans-serif;
     }
 
     h1 {
@@ -31,17 +31,48 @@
       margin: 10px 0;
     }
 
-    img {
+    .flor-principal {
       max-width: 90%;
       max-height: 80vh;
       object-fit: contain;
+    }
+
+    .contador {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .contador p {
+      margin-bottom: 8px;
+    }
+
+    .contador img {
+      max-width: 100%;
     }
   </style>
 </head>
 
 <body>
   <h1>Florencia</h1>
-  <p class="flor-texto">Mi gata hermosa llamada Flor</p>
-  <img src="./Flor Body.jpeg" alt="Flor">
+
+  <p class="flor-texto">
+    Mi gata hermosa llamada Flor
+  </p>
+
+  <img
+    class="flor-principal"
+    src="./Flor Body.jpeg"
+    alt="Flor"
+  >
+
+  <div class="contador">
+    <p>Visitas:</p>
+
+    <img
+      src="https://hits.donaldzou.dev/api/hit?url=https://Franlalia-gif.github.io/Florencia/"
+      alt="Contador de visitas"
+    >
+  </div>
 </body>
 </html>
