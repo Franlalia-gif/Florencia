@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Florencia</title>
 
   <style>
     body {
       margin: 0;
       min-height: 100vh;
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -29,9 +31,13 @@
       color: #f4f5f1;
       font-size: 24px;
       margin: 10px 0;
+      text-align: center;
     }
 
     .flor-principal {
+      display: block;
+      width: auto;
+      height: auto;
       max-width: 90%;
       max-height: 80vh;
       object-fit: contain;
@@ -44,11 +50,14 @@
     }
 
     .contador p {
-      margin-bottom: 8px;
+      margin: 0 0 8px 0;
     }
 
     .contador img {
-      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      max-width: none;
+      max-height: none;
     }
   </style>
 </head>
@@ -70,7 +79,7 @@
     <p>Visitas:</p>
 
     <img
-      src="https://hits.donaldzou.dev/api/hit?url=https://Franlalia-gif.github.io/Florencia/"
+      src="https://hitscounter.dev/api/hit?url=https%3A%2F%2FFranlalia-gif.github.io%2FFlorencia%2F&label=Visitas&icon=github&color=%236c34ce"
       alt="Contador de visitas"
     >
   </div>
